@@ -12,3 +12,12 @@ end
 
 =end
 
+def reverse_each_word(string)
+  word_array = string.split(" ")
+  reversed_words = []
+  
+  word_array.collect do |word|
+    reversed_words << word.reverse
+  end
+  
+end
